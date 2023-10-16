@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import "./side-nav.scss";
+import mePic from "../../public/images/me.png";
 
 const SideNav = () => (
   <div className="sideNavWrapper">
@@ -9,9 +10,18 @@ const SideNav = () => (
         Mike Holzbach
       </Link>
     </h1>
+    <Image
+      alt="Me"
+      src={mePic}
+      style={{
+        width: "100%",
+        height: "auto",
+        maxHeight: "200px",
+        maxWidth: "200px",
+      }}
+    />
     <div>
-      <div className="imageWrapper">{/* <MeImage /> */}</div>
-      <h3 className="text">
+      <h3 className="navText">
         A front-end developer with a focus on React and a passion for life
         abroad.
       </h3>
