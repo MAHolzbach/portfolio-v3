@@ -16,8 +16,30 @@
 .sideNavLink {
   color: inherit;
   text-decoration: none;
+
+  @media (min-width: 425px) {
+    font-size: 46px;
+  }
 }
 
 .navText {
   text-align: center;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position: absolute;
+  bottom: 5%;
+  left: 0;
+}
+
+.socialLink {
+  color: #d3d3d3;
+  font-size: 32px;
+
+  &:hover {
+    color: #1c4ad2;
+  }
 }

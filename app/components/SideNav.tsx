@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import "./side-nav.scss";
 import mePic from "../../public/images/me.png";
+import { FaLinkedin, FaRegFilePdf, FaGithub } from "react-icons/fa";
 
 const SideNav = () => (
   <div className="sideNavWrapper">
@@ -33,7 +34,7 @@ const SideNav = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        {/* <FaRegFilePdf /> */}
+        <FaRegFilePdf />
       </a>
       <a
         className="socialLink"
@@ -41,7 +42,7 @@ const SideNav = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        {/* <FaLinkedin /> */}
+        <FaLinkedin />
       </a>
       <a
         className="socialLink"
@@ -49,7 +50,7 @@ const SideNav = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        {/* <FaGithub /> */}
+        <FaGithub />
       </a>
     </div>
   </div>
