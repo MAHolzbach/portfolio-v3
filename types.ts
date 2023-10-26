@@ -6,5 +6,5 @@ export type TCardData = {
   cardDescription: string;
   tools: string;
   cardUrl: string | null;
-  cardPage: string;
+  slug: string;
 };

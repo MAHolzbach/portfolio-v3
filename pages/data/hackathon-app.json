@@ -1,0 +1,11 @@
+{
+  "tools": "React (with hooks and context API), Sass, ES6, Webpack, Serverless, Node.js, DynamoDB, AWS Lambda, and RESTful API consumption.",
+  "detailsTitle": "Carfax Hackathon App",
+  "visitUrl": null,
+  "detailsSubtitle": "(This page is a company internal site, and not accessible to the public.)",
+  "detailsTask": "Build an updated hackathon application for use by the entire company to sign up for the quarterly hackathon.",
+  "detailsChallenges": "Handling all state management using only React hooks and context API. Structuring the DynamoDB data to be as useful as possible.",
+  "detailsResults": "Maintained existing functionality of the previous version while adding requested new features.",
+  "detailsComments": "This actually started off as a professional development project to learn React's hooks and context API. It quickly became a viable application, so I pushed it forward and coordinated with the hackathon administrator to add some new features such as an idea pool, giving more in app control to the hackathon administrator, as well as getting some help from Josh Adams to add an admin panel. The entire project's state management, including a complex team creation form, runs entirely on the context API. Learning it and hooks was an awesome experience. It was only intended to be a desktop app, so below are a couple screenshots (using dummy data) of a couple sections. I'm currently re-writing the backend as well, taking it from a SQL database Java application to a DynamoDB database using AWS Lambdas written in Node.js and the Serverless framework.",
+  "detailsTeam": "Josh Adams"
+}

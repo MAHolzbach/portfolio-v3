@@ -37,7 +37,7 @@ export default async function Home() {
           description={item.cardDescription}
           tools={item.tools}
           url={item.cardUrl}
-          page={item.cardPage}
+          slug={item.slug}
         />
       ))}
     </div>

@@ -7,7 +7,7 @@
     "cardDescription": "Elinvar's financial management platform for investment advisors.",
     "tools": "React 18, Typescript, ES6, Styled Components, Jest, TAN Stack Query",
     "cardUrl": null,
-    "cardPage": "/elinvar-bapp"
+    "slug": "elinvar-bapp"
   },
   {
     "projectType": "professional",
@@ -17,7 +17,7 @@
     "cardDescription": "Elinvar's portal for individual investors.",
     "tools": "React 18, Typescript, ES6, Styled Components, Jest, TAN Stack Query",
     "cardUrl": null,
-    "cardPage": "/elinvar-capp"
+    "slug": "elinvar-capp"
   },
   {
     "projectType": "professional",
@@ -27,7 +27,7 @@
     "cardDescription": "Carfax's dedicated in-house hackathon app.",
     "tools": "React (with hooks and context API), Sass, ES6, Webpack, Serverless, Node.js, DynamoDB, AWS Lambda, and RESTful API consumption.",
     "cardUrl": null,
-    "cardPage": "/hackathon-app"
+    "slug": "hackathon-app"
   },
   {
     "projectType": "professional",
@@ -37,7 +37,7 @@
     "cardDescription": "Carfax's landing page for Vehicle History Reports, the company's flagship product.",
     "tools": "Pug, Sass, ES6, Webpack, and RESTful API consumption.",
     "cardUrl": "https://www.carfax.com/vehicle-history-reports/",
-    "cardPage": "/vhr-landing"
+    "slug": "vhr-landing"
   },
   {
     "projectType": "professional",
@@ -47,7 +47,7 @@
     "cardDescription": "This site is the central location for Carfax's customers to run Vehicle History Reports and view reports they have run in the past.",
     "tools": "React, Pug, Sass, ES6, Webpack, Jest/Enzyme, and RESTful API consumption.",
     "cardUrl": "https://www.carfax.com/signin",
-    "cardPage": "/showroom"
+    "slug": "showroom"
   },
   {
     "projectType": "professional",
@@ -57,7 +57,7 @@
     "cardDescription": "Here Carfax users can view and edit any review they have provided for a car dealership or service shop for whom they have left a review.",
     "tools": "React, Redux, Sass, ES6, Webpack, Jest/Enzyme, and RESTful API consumption.",
     "cardUrl": "https://www.carfax.com/signin",
-    "cardPage": "/ratings-and-reviews"
+    "slug": "ratings-and-reviews"
   },
   {
     "projectType": "professional",
@@ -67,7 +67,7 @@
     "cardDescription": "This was intended to be Carfax's central payment page where customers could purchase Vehicle History Reports. Failed A/B testing led to the old(current) site being maintained.",
     "tools": "Sass, ES5/6, jQuery, Java, and RESTful API consumption.",
     "cardUrl": "https://secure.carfax.com/creditCard.cfx",
-    "cardPage": "/purchase-page"
+    "slug": "purchase-page"
   },
   {
     "projectType": "professional",
@@ -77,7 +77,7 @@
     "cardDescription": "A total overhaul of a site that is used by Carfax's partners (dealerships mostly) to purchase Vehicle History Reports.",
     "tools": "Pug, Sass, ES5/6, Jest, and RESTful API consumption.",
     "cardUrl": "https://www.carfax.com/record-check/?partner=BDA_4&vin=JTKDE167660140438",
-    "cardPage": "/record-check"
+    "slug": "record-check"
   },
   {
     "projectType": "professional",
@@ -87,7 +87,7 @@
     "cardDescription": "A full rebuild of a form CARFAX users can submit to report finding a vehicle that has been reported stolen.",
     "tools": "React (w/ hooks and context API), Sass, ES5/6, Jest, and RESTful API consumption.",
     "cardUrl": "https://www.carfax.com/contact/nicbform/",
-    "cardPage": "/nicb"
+    "slug": "nicb"
   },
   {
     "projectType": "professional",
@@ -97,6 +97,6 @@
     "cardDescription": "Carfax internal application for generating sales leads at major car and dealership coventions.",
     "tools": "Vue, ES5/6, Firebase, and RESTful API consumption.",
     "cardUrl": null,
-    "cardPage": "/swag-app"
+    "slug": "swag-app"
   }
 ]

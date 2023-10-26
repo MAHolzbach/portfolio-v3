@@ -22,7 +22,7 @@ const ProjectCard = (props) => (
       {props.tools}
     </p>
     <div className="buttonWrapper">
-      <Link className="button" href={props.page}>
+      <Link className="button" href={props.slug}>
         Details
       </Link>
       {props.url !== null && (
