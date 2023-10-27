@@ -8,15 +8,9 @@ import { TCardProps } from "../../types";
 const ProjectCard = (props: TCardProps) => (
   <div className="card">
     <h2 className="cardTitle">{props.title}</h2>
-    <picture>
+    <picture className="cardImage">
       <source srcSet={props.img} type="image/webp" />
-      <Image
-        className="cardImage"
-        width={400}
-        height={400}
-        src={props.altImg}
-        alt="Project"
-      />
+      <Image fill src={props.altImg} alt="Project" />
     </picture>
     <p className="cardText">
       <strong>Tools: </strong>

@@ -3,25 +3,41 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 375px;
+  width: 325px;
   border: 1px solid #d3d3d3;
-  background-color: white;
+  background-color: #faf9f6;
   border-radius: 4px;
   margin: 16px 0;
   padding: 8px;
 
-  @media (min-width: 426px) {
-    height: fit-content;
+  @media (min-width: 768px) {
+    height: 500px;
     margin: 16px 24px;
-    width: 450px;
+    width: 350px;
+  }
+
+  @media (min-width: 992px) {
+    height: 500px;
+    margin: 16px 24px;
+    width: 375px;
   }
 }
 .cardTitle {
   text-align: center;
 }
 .cardImage {
+  position: relative;
+  width: 300px;
+  height: 300px;
+
   @media (min-width: 426px) {
-    height: 350px;
+    width: 325px;
+    height: 300px;
+  }
+
+  @media (min-width: 992px) {
+    width: 375px;
+    height: 300px;
   }
 }
 .buttonWrapper {
