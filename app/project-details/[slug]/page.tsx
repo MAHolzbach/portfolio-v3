@@ -1,19 +1,31 @@
 import { promises as fs } from "fs";
+import { TCardData, TSlugParams, TProjectDetailsParams } from "../../../types";
 
-async function getData(params) {
+export default async function ProjectDetails({
+  params,
+}: TProjectDetailsParams) {
+  const {
+    props: { project },
+  } = await getData(params);
+
+  console.log("ProjectDetails -->", project);
+
+  return (
+    <div>
+      <p>{project.tools}</p>
+    </div>
+  );
+}
+
+async function getData(params: TSlugParams) {
   const file = await fs.readFile(
     process.cwd() + `/pages/data/${params.slug}.json`,
     "utf8"
   );
+
   const project = JSON.parse(file);
-  console.log("getStaticProps -->", project);
 
   return { props: { project } };
-}
-export default function ProjectDetails({ params }) {
-  const project = getData(params);
-  console.log("ProjectDetails -->", params);
-  return <div>{params.slug}</div>;
 }
 
 export async function generateStaticParams() {
@@ -21,10 +33,10 @@ export async function generateStaticParams() {
     process.cwd() + "/pages/data/index.json",
     "utf8"
   );
-  const projects = JSON.parse(file);
-  console.log("generateStaticParams -->", projects);
 
-  return projects.map((project) => ({
+  const projects = JSON.parse(file);
+
+  return projects.map((project: TCardData) => ({
     slug: project.slug,
   }));
 }

@@ -3,12 +3,13 @@ import Link from "next/link";
 import Image from "next/image";
 
 import "./project-card.scss";
+import { TCardProps } from "../../types";
 
-const ProjectCard = (props) => (
+const ProjectCard = (props: TCardProps) => (
   <div className="card">
     <h2 className="cardTitle">{props.title}</h2>
     <picture>
-      <source srcSet={props.img.default} type="image/webp" />
+      <source srcSet={props.img} type="image/webp" />
       <Image
         className="cardImage"
         width={400}
@@ -22,7 +23,7 @@ const ProjectCard = (props) => (
       {props.tools}
     </p>
     <div className="buttonWrapper">
-      <Link className="button" href={props.slug}>
+      <Link className="button" href={`/project-details/${props.slug}`}>
         Details
       </Link>
       {props.url !== null && (
