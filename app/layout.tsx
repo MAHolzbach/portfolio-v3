@@ -10,8 +10,10 @@ export default function RootLayout({
     <html lang="en">
       <head />
       <body>
-        <SideNav />
-        {children}
+        <div className="sideNavWrapper">
+          <SideNav />
+        </div>
+        <div className="contentWrapper">{children}</div>
       </body>
     </html>
   );

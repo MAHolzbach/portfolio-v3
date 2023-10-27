@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import "./side-nav.scss";
-import mePic from "../../public/images/me.png";
+import mePic from "../../public/me.png";
 import { FaLinkedin, FaRegFilePdf, FaGithub } from "react-icons/fa";
 
 const SideNav = () => (
-  <div className="sideNavWrapper">
+  <div className="navWrapper">
     <h1>
       <Link href="/" className="sideNavLink">
         Mike Holzbach
