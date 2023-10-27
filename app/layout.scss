@@ -9,7 +9,7 @@ body {
   grid-template-columns: minmax(400px, 20%) 1fr;
   grid-template-areas: "sideNav projectdData";
 
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
     overflow: scroll;
