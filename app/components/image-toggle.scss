@@ -1,0 +1,57 @@
+.imageToggleWrapper {
+  display: grid;
+  grid-template-columns: minmax(100px, 20%) 1fr;
+  grid-template-areas: "toggleButtons images";
+  position: relative;
+}
+.buttonWrapper {
+  grid-area: toggleButtons;
+  display: flex;
+  flex-direction: column;
+}
+.imageWrapper {
+  grid-area: images;
+  position: absolute;
+}
+.imageButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  border: 2px solid #1c4ad2;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 4px;
+  font-weight: 500;
+  background-color: #f9f9f9;
+  margin-bottom: 12px;
+  width: 92px;
+
+  * {
+    pointer-events: none;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+
+  @media (min-width: 426px) {
+    padding: 6px 12px;
+    width: 180px;
+    font-size: 16px;
+
+    &:hover {
+      box-shadow: inset 0 0 10px #1c4ad2;
+    }
+  }
+}
+.buttonIcon {
+  margin: 2px 2px 0 0;
+  vertical-align: middle;
+  color: #1c4ad2;
+
+  @media (min-width: 426px) {
+    margin: 2px 8px 0 0;
+  }
+}

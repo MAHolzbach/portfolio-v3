@@ -6,7 +6,7 @@ import "./page.scss";
 
 export default async function Home() {
   const file = await fs.readFile(
-    process.cwd() + "/pages/data/index.json",
+    process.cwd() + "/app/data/index.json",
     "utf8"
   );
 
@@ -15,7 +15,7 @@ export default async function Home() {
   return (
     <div className="indexWrapper">
       <div>
-        <h2>What I Do</h2>
+        <h1>What I Do</h1>
         <p>
           I&apos;m a front-end web developer specializing in React and pixel
           perfect CSS. I have extensive experience working in an Agile
@@ -27,8 +27,8 @@ export default async function Home() {
         <h2>Professional Work</h2>
         <p>
           <strong>Note for European visitors:</strong> Due to GDPR, Carfax
-          directs European IPs to their European site. I am happy to walk you
-          through these projects on a call!
+          directs European IPs to their European site. I am happy to discuss
+          these projects on a call!
         </p>
       </div>
       {data.map((item: TCardData) => (

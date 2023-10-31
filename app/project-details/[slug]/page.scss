@@ -1,0 +1,41 @@
+.homeLink {
+  text-decoration: none;
+  font-size: 18px;
+
+  &:visited {
+    color: black;
+  }
+
+  &:hover {
+    font-weight: 700;
+  }
+
+  @media (min-width: 426px) {
+    font-size: 24px;
+  }
+}
+.icon {
+  margin: -3px 2px 0 0;
+  vertical-align: middle;
+  color: #1c4ad2;
+
+  @media (min-width: 426px) {
+    margin: -3px 8px 0 0;
+  }
+}
+.projectTitle,
+.subtitle {
+  text-align: center;
+}
+.boldText {
+  font-weight: 700;
+}
+.subtitle {
+  font-size: 16px;
+  line-height: 18px;
+}
+.text {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+}

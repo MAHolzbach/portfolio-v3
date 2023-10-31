@@ -20,6 +20,25 @@ export type TCardProps = {
   slug: string;
 };
 
+export type TImageData = {
+  title: string;
+  source: string;
+};
+
+export type TDetailsPageData = {
+  tools: string;
+  detailsTitle: string;
+  visitUrl: string | null;
+  detailsSubtitle: string;
+  detailsTask: string;
+  detailsChallenges: string;
+  detailsResults: string;
+  detailsComments: string;
+  detailsTeam: string;
+  repoUrl?: string | null;
+  images: TImageData[];
+};
+
 export type TSlugParams = { slug: string };
 
 export type TProjectDetailsParams = { params: TSlugParams };
