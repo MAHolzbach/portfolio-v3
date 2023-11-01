@@ -12,7 +12,7 @@
   "otherUrlText": null,
   "otherUrl": null,
   "images": [
-    { "title": "Idea Submission", "source": "/hackathon-ideas.png" },
-    { "title": "Create Team", "source": "/hackathon-create-team.png" }
+    { "id": 1, "title": "Idea Submission", "src": "/hackathon-ideas.png" },
+    { "id": 2, "title": "Create Team", "src": "/hackathon-create-team.png" }
   ]
 }

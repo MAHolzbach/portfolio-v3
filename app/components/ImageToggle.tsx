@@ -6,29 +6,42 @@ import { FaChevronCircleRight, FaChevronRight } from "react-icons/fa";
 
 import "./image-toggle.scss";
 
-const ImageToggle = ({ title, src }: { title: string; src: string }) => {
-  const [toggleOpen, setToggleOpen] = useState(false);
+const ImageButton = ({ data, toggleState, setOpenImage }: any) => {
+  return (
+    <button
+      className="imageButton"
+      onClick={() => {
+        return setOpenImage({ id: data.id, src: data.src });
+      }}
+    >
+      {data.title}
+      {toggleState.id === data.id ? (
+        <FaChevronCircleRight className="buttonIcon" />
+      ) : (
+        <FaChevronRight className="buttonIcon" />
+      )}
+    </button>
+  );
+};
 
-  //! useReducer here to determine which image to show.
-  //! Give each item an ID, and filter to show the right image per buitton click.
-  //! Make the button list and images seperate components. Manage state here.
+const ImageToggle = ({ images }: any) => {
+  const [toggleState, setToggleOpen] = useState({ id: "", src: "" });
+
   return (
     <div className="imageToggleWrapper">
       <div className="buttonWrapper">
-        <button
-          className="imageButton"
-          onClick={() => setToggleOpen(!toggleOpen)}
-        >
-          {toggleOpen ? (
-            <FaChevronCircleRight className="buttonIcon" />
-          ) : (
-            <FaChevronRight className="buttonIcon" />
-          )}
-          {title}
-        </button>
+        {images.map((image: any) => (
+          <ImageButton
+            key={image.id}
+            data={image}
+            toggleState={toggleState}
+            setOpenImage={setToggleOpen}
+          />
+        ))}
       </div>
+
       <div className="imageWrapper">
-        {toggleOpen ? (
+        {toggleState.src ? (
           <Image
             height={1200}
             width={1200}
@@ -36,7 +49,7 @@ const ImageToggle = ({ title, src }: { title: string; src: string }) => {
               maxWidth: "100%",
               height: "auto",
             }}
-            src={src}
+            src={toggleState.src}
             alt="Project"
           />
         ) : null}

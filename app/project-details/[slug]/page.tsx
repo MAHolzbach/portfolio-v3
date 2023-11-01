@@ -83,9 +83,10 @@ export default async function ProjectDetails({
         </p>
       </div>
 
-      {images.map((image: TImageData) => (
+      <ImageToggle images={images} />
+      {/* {images.map((image: TImageData) => (
         <ImageToggle key={image.title} src={image.source} title={image.title} />
-      ))}
+      ))} */}
     </div>
   );
 }
