@@ -6,7 +6,7 @@ import "./page.scss";
 
 export default async function Home() {
   const file = await fs.readFile(
-    process.cwd() + "/app/data/index.json",
+    process.cwd() + "/app/data/card-data.json",
     "utf8"
   );
 

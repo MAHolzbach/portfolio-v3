@@ -15,13 +15,13 @@ const ProjectCard = (props: TCardProps) => (
       <strong>Tools: </strong>
       {props.tools}
     </p>
-    <div className="buttonWrapper">
-      <Link className="button" href={`/project-details/${props.slug}`}>
+    <div className="cardButtonWrapper">
+      <Link className="cardButton" href={`/project-details/${props.slug}`}>
         Details
       </Link>
       {props.url !== null && (
         <a
-          className="button"
+          className="cardButton"
           href={props.url}
           type="button"
           target="_blank"

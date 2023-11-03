@@ -25,11 +25,14 @@ const ImageButton = ({ data, toggleState, setOpenImage }: any) => {
 };
 
 const ImageToggle = ({ images }: any) => {
-  const [toggleState, setToggleOpen] = useState({ id: "", src: "" });
+  const [toggleState, setToggleOpen] = useState({
+    id: images[0].id,
+    src: images[0].src,
+  });
 
   return (
     <div className="imageToggleWrapper">
-      <div className="buttonWrapper">
+      <div className="imageButtonWrapper">
         {images.map((image: any) => (
           <ImageButton
             key={image.id}

@@ -1,12 +1,7 @@
 import { promises as fs } from "fs";
 import Link from "next/link";
 import { FaArrowLeft } from "react-icons/fa";
-import {
-  TCardData,
-  TSlugParams,
-  TProjectDetailsParams,
-  TImageData,
-} from "../../../types";
+import { TCardData, TSlugParams, TProjectDetailsParams } from "../../../types";
 import ImageToggle from "../../components/ImageToggle";
 
 import "./page.scss";
@@ -84,9 +79,6 @@ export default async function ProjectDetails({
       </div>
 
       <ImageToggle images={images} />
-      {/* {images.map((image: TImageData) => (
-        <ImageToggle key={image.title} src={image.source} title={image.title} />
-      ))} */}
     </div>
   );
 }
@@ -104,7 +96,7 @@ async function getData(params: TSlugParams) {
 
 export async function generateStaticParams() {
   const file = await fs.readFile(
-    process.cwd() + "/app/data/index.json",
+    process.cwd() + "/app/data/card-data.json",
     "utf8"
   );
 
