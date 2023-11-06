@@ -1,0 +1,18 @@
+{
+  "detailsTitle": "Carfax Record Check",
+  "tools": "Pug, Sass, ES5/6, Jest, and RESTful API consumption.",
+  "visitUrl": "https://www.carfax.com/record-check/?partner=BDA_4&vin=JTKDE167660140438",
+  "detailsSubtitle": "You can click the buttons below to view some screenshots of the site, as well as get more details on the project. Or you can visit the site itself by clicking here: ",
+  "detailsTask": "Rebuild an old site that our partner dealerships use to purchase Vehicle History Reports for their customers, or to direct customers to Carfax for their own reports.",
+  "detailsChallenges": "Re-building one Carfax's oldest sites and keeping it as fast as the original.",
+  "detailsResults": "This site receives an average of 10,000 visitors per day, and has generated 2% revenue lift.",
+  "detailsComments": "A relatively straightforward static site to replace a much older site in a code base that was being retired. My goal here was to make this page as lean as possible in order to keep it fast. Some SEO considerations and image optimization were part of that, as well as creating a new endpoint for both the initial data fetch, and the email sign-up form.",
+  "detailsTeam": "Mike Dolan, Monte Alawamleh, and Carol Li (designer)",
+  "repoUrl": null,
+  "otherUrlText": null,
+  "otherUrl": null,
+  "images": [
+    { "id": 1, "title": "Desktop", "src": "/record-check-desktop.png" },
+    { "id": 2, "title": "Mobile", "src": "/record-check-mobile.png" }
+  ]
+}

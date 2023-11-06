@@ -1,0 +1,18 @@
+{
+  "detailsTitle": "The Swag App",
+  "tools": "Vue, ES5/6, Firebase, and RESTful API consumption.",
+  "visitUrl": null,
+  "detailsSubtitle": "(This page is a company internal site, and not accessible to the public.)",
+  "detailsTask": "Maintain and expand the functionality of the 'swag app' in order to help the sales team in generating leads at major car dealer conventions.",
+  "detailsChallenges": "Entirely new toolset of Vue and Firebase.",
+  "detailsResults": "This app (built about a year prior to us taking over its maintenance) continued to generate leads worth a few million dollars, while being easier to use and more responsive to our sales team. And it was another great learning opportunity as an introduction to Vue and Firebase.",
+  "detailsComments": "Our task was to tweak the order form page, seen in the screenshots below, to make it capable of handling more product types and messages. My teammate Levi handled that piece. I decided, based on feedback from the sales team director, that an admin panel would be useful. I built this to query the Firebase database and display all placed orders, and allow for search and ascending/descending ordering. No images are available as it's full of customer details.",
+  "detailsTeam": "Levi Paulk, Mark Mahoney(original developer)",
+  "repoUrl": null,
+  "otherUrlText": null,
+  "otherUrl": null,
+  "images": [
+    { "id": 1, "title": "Customize View", "src": "/swag-app-customize.jpg" },
+    { "id": 2, "title": "Form View", "src": "/swag-app-form.jpg" }
+  ]
+}

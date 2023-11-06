@@ -11,16 +11,7 @@ const SideNav = () => (
         Mike Holzbach
       </Link>
     </h1>
-    <Image
-      alt="Me"
-      src={mePic}
-      style={{
-        width: "100%",
-        height: "auto",
-        maxHeight: "200px",
-        maxWidth: "200px",
-      }}
-    />
+    <Image alt="Me" src={mePic} className="mePic" />
     <div>
       <h3 className="navText">
         A front-end developer with a focus on React and a passion for life
