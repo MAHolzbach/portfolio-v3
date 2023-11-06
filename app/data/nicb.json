@@ -1,0 +1,18 @@
+{
+  "detailsTitle": "National Insurance Crime Bureau Form",
+  "tools": "React (w/ hooks and context API), Sass, ES5/6, Jest, and RESTful API consumption.",
+  "visitUrl": "https://www.carfax.com/contact/nicbform/",
+  "detailsSubtitle": "You can click the buttons below to view some screenshots of the site, as well as get more details on the project. Or you can visit the site itself by clicking here: ",
+  "detailsTask": "Rebuild two 15 year old forms from the ground up to allow users to report potentially stolen vehicles.",
+  "detailsChallenges": "Manage all form state using only the context API?",
+  "detailsResults": "This was a straightforward project that allowed me to leverage what I had been learning about React's new context API and hooks while giving users a much cleaner UX.",
+  "detailsComments": "After assessing the old forms (the other is nearly identical and for the Canadian organization and can be viewed here: https://www.carfax.com/contact/ibcform/), which were very out of date (just raw HTML inputs), I set about making this little form app with the intent of not using any state management tools, despite the difficulty of managing state on forms. Ultimately, the context API was quite sufficient to handle input values, validation, and error handling on its own.",
+  "detailsTeam": "Mike Dolan (backend architecture)",
+  "repoUrl": null,
+  "otherUrlText": null,
+  "otherUrl": null,
+  "images": [
+    { "id": 1, "title": "Desktop", "src": "/nicb-desktop.png" },
+    { "id": 2, "title": "Mobile", "src": "/nicb-mobile.png" }
+  ]
+}

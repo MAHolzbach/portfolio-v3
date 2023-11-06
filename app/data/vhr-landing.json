@@ -1,0 +1,18 @@
+{
+  "detailsTitle": "Vehicle History Report Landing Page",
+  "tools": "Pug, Sass, ES6, Webpack, and RESTful API consumption.",
+  "visitUrl": "https://www.carfax.com/vehicle-history-reports/",
+  "detailsSubtitle": "You can click the buttons below to view some screenshots of the site, as well as get more details on the project. Or you can visit the site itself by clicking here: ",
+  "detailsTask": "Build a completely redesigned page where Carfax users can search Carfax's huge databases by VIN or plate and state for the existence of history records on a particular vehicle, then drive traffic to the purchase page.",
+  "detailsChallenges": "Extent of a complete overhaul from a code perspective? How best to optimize current functionality?",
+  "detailsResults": "This site's redesign has resulted in a 3% improvement in revenue for Carfax and a 9% increase in conversion.",
+  "detailsComments": "This page had been in dire need of an overhaul from a design perspective for quite some time. Initially intended only as a facelift, AJ and I evaluated the code base and decided it was in just as dire need of an overhaul. So we completely scrapped the original Java SpringBoot based page, and replaced it with a very modern site using Pug for our HTML templates and Webpack to allow use of Sass and ES6. Additionally, the API calls and front end user input validation were greatly simplified.",
+  "detailsTeam": "AJ Schmidt and Amru Samman (designer)",
+  "repoUrl": null,
+  "otherUrlText": null,
+  "otherUrl": null,
+  "images": [
+    { "id": 1, "title": "Desktop", "src": "/vhr-desktop.png" },
+    { "id": 2, "title": "Mobile", "src": "/vhr-mobile.png" }
+  ]
+}

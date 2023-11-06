@@ -36,16 +36,16 @@
   }
 
   @media (min-width: 992px) {
-    width: 375px;
+    width: 350px;
     height: 300px;
   }
 }
-.buttonWrapper {
+.cardButtonWrapper {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
 }
-.button {
+.cardButton {
   cursor: pointer;
   font-weight: 700;
   letter-spacing: 1px;

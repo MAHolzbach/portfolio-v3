@@ -8,21 +8,20 @@ import { TCardProps } from "../../types";
 const ProjectCard = (props: TCardProps) => (
   <div className="card">
     <h2 className="cardTitle">{props.title}</h2>
-    <picture className="cardImage">
-      <source srcSet={props.img} type="image/webp" />
+    <div className="cardImage">
       <Image fill src={props.altImg} alt="Project" />
-    </picture>
+    </div>
     <p className="cardText">
       <strong>Tools: </strong>
       {props.tools}
     </p>
-    <div className="buttonWrapper">
-      <Link className="button" href={`/project-details/${props.slug}`}>
+    <div className="cardButtonWrapper">
+      <Link className="cardButton" href={`/project-details/${props.slug}`}>
         Details
       </Link>
       {props.url !== null && (
         <a
-          className="button"
+          className="cardButton"
           href={props.url}
           type="button"
           target="_blank"

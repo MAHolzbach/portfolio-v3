@@ -1,0 +1,18 @@
+{
+  "detailsTitle": "Showroom",
+  "tools": "React, Pug, Sass, ES6, Webpack, Enzyme/Jest, and RESTful API consumption.",
+  "visitUrl": "https://www.carfax.com/signin",
+  "detailsSubtitle": "You can click the buttons below to view some screenshots of the site, as well as get more details on the project. Visiting the page itself will require creation of a Carfax account, which is completely free to do, here: ",
+  "detailsTask": "Create a central place where Carfax users can run and view Vehicle History Reports in order to modernize and simplify user's experience while improving conversion and driving traffic to the purchase page.",
+  "detailsChallenges": "Keeping the site fast despite a heavy data fetch. Creating that data fetch from multiple endpoints. What to test?",
+  "detailsResults": "This site receives about 4,000 visitors per day, and has resulted in a 1% improvement in revenue for Carfax.",
+  "detailsComments": "This was my first production React project, so I was pretty excited to dive into it. Similar in design and tooling to the VHR Landing Page, it is built using Pug for HTML templating, Sass for the styling, and React for the center piece component that actually displays some basic data of the reports a user has run. This was also my first time getting deep into the Webpack tooling piece, as well as writing detailed tests. Both were significant learning experiences, in particular getting a feel for what should and should not be tested.",
+  "detailsTeam": "Mike Dolan, Erik Luetkehans, Carol Li (designer)",
+  "repoUrl": null,
+  "otherUrlText": null,
+  "otherUrl": null,
+  "images": [
+    { "id": 1, "title": "Desktop", "src": "/showroom-desktop.png" },
+    { "id": 2, "title": "Mobile", "src": "/showroom-mobile.png" }
+  ]
+}

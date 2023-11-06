@@ -1,0 +1,18 @@
+{
+  "detailsTitle": "Carfax Ratings and Reviews",
+  "tools": "React, Redux, Sass, ES6, Webpack, Jest/Enzyme, and RESTful API consumption.",
+  "visitUrl": "https://www.carfax.com/signin",
+  "detailsSubtitle": "You can click the buttons below to view some screenshots of the site, as well as get more details on the project. Visiting the page itself will require creation of a Carfax account, which is completely free to do, here: ",
+  "detailsTask": "Add a section to an existing site that allows Carfax users to see and edit any review they have left for a service shop or car dealership, increasing customer and partner engagement.",
+  "detailsChallenges": "Updates and maintenance. Cross team coordination to establish new APIs.",
+  "detailsResults": "This site receives about 3,000 visitors per day, and has been well received by customers and partners alike.",
+  "detailsComments": "This code base was an inherited one, and had sat untouched for nearly three years. Accordingly, the tooling in particular was badly out of date, and the Redux code was a bit overly complex (it had been one of Carfax's first React/Redux projects and was a little over-engineered). I pushed to take a step back from expanding this application until we could fully update the tooling and simplify some of the state management. After a significant overhaul under the hood (a significant Webpack and Redux learning experience), Mike Dolan and I proceeded to work closely with the data team that manages the review data to implement new endpoints we could use, and bring this useful new feature to life.",
+  "detailsTeam": "Mike Dolan and Carol Li (designer)",
+  "repoUrl": null,
+  "otherUrlText": null,
+  "otherUrl": null,
+  "images": [
+    { "id": 1, "title": "Desktop", "src": "/rnr-desktop.png" },
+    { "id": 2, "title": "Mobile", "src": "/rnr-mobile.png" }
+  ]
+}
