@@ -7,15 +7,17 @@ import { FaChevronCircleRight, FaChevronRight } from "react-icons/fa";
 import "./image-toggle.scss";
 
 const ImageButton = ({ data, toggleState, setOpenImage }: any) => {
+  const activeButton = toggleState.id === data.id;
+
   return (
     <button
-      className="imageButton"
+      className={`imageButton ${activeButton ? "activeButton" : ""}`}
       onClick={() => {
         return setOpenImage({ id: data.id, src: data.src });
       }}
     >
       {data.title}
-      {toggleState.id === data.id ? (
+      {activeButton ? (
         <FaChevronCircleRight className="buttonIcon" />
       ) : (
         <FaChevronRight className="buttonIcon" />
