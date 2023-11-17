@@ -2,15 +2,15 @@ import { promises as fs } from "fs";
 import Link from "next/link";
 import { FaArrowLeft } from "react-icons/fa";
 import { TCardData, TSlugParams, TProjectDetailsParams } from "../../../types";
-import ImageModal from "../../components/ImageModal";
+// import ImageModal from "../../components/ImageModal";
 import ImageToggle from "../../components/ImageToggle";
 
 import "./page.scss";
 
 export default async function ProjectDetails({
   params,
-  searchParams,
-}: TProjectDetailsParams) {
+}: // searchParams,
+TProjectDetailsParams) {
   const {
     props: {
       project: {
@@ -29,7 +29,7 @@ export default async function ProjectDetails({
     },
   } = await getData(params);
 
-  const modalOpen = searchParams?.modal;
+  // const modalOpen = searchParams?.modal;
 
   return (
     <div>
@@ -37,14 +37,7 @@ export default async function ProjectDetails({
         <FaArrowLeft className="icon" />
         Back
       </Link>
-      <Link
-        className="homeLink"
-        href={`project-details/${params.slug}/?modal=true`}
-      >
-        Open Modal
-      </Link>
       <h1 className="projectTitle">{detailsTitle}</h1>
-      {modalOpen && <ImageModal slug={params.slug} />}
       <p className="subtitle">
         {detailsSubtitle}
         {visitUrl !== null && (

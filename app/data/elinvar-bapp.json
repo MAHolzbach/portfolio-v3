@@ -1,0 +1,32 @@
+{
+  "tools": "React 18, Typescript, ES6, Styled Components, Jest, TAN Stack Query, Microfrontend Architecture",
+  "detailsTitle": "Elinvar Financial Advisor Platform",
+  "visitUrl": null,
+  "detailsSubtitle": "(This page is a client subscription platform, and not accessible to the public.)",
+  "detailsTask": "Build and maintain a large financial management platform.",
+  "detailsChallenges": "An enormous code base, sometimes quickly written during the ramp phase of a tech startup lifecycle, as well as shifting technologies and client/company needs.",
+  "detailsResults": "Added numerous new pages and features to the platform as well as re-factor and maintain older code.",
+  "detailsComments": "This is the main platform for Elinvar. It is a platform as a service piece of software that allows investment advisors, from independant advisors to members of large banks, to see and manage their clients and those clients' investments. The business app, or 'bApp' as we called it, was built and maintained by a large number of developers in a fairly typical startup environment. Iterate fast and stay on top of client needs. I began work on bApp at a time when the platform was established but needed to continue having new features added, bugs fixed, and 'older' pieces overhauled and refactored. Just a few of the things I worked on here included adding several large tables to the platform using a complex internal table library, adding a new user flow that allowed account grouping, and porting numerous sections over to a microfrontend architecture. I learned a great deal working on this platform about managing huge codebases over time and became a far better developer because of it.",
+  "detailsTeam": "Far too many to list on this project!",
+  "repoUrl": null,
+  "otherUrlText": null,
+  "otherUrl": null,
+  "images": [
+    { "id": 1, "title": "Client Data", "src": "/bapp-client-details.png" },
+    {
+      "id": 2,
+      "title": "Client Details",
+      "src": "/bapp-person-details.png"
+    },
+    {
+      "id": 3,
+      "title": "Client Data Editing",
+      "src": "/bapp-person-details-editing.png"
+    },
+    {
+      "id": 4,
+      "title": "Client Table",
+      "src": "/bapp-person-overview-table.png"
+    }
+  ]
+}
