@@ -41,4 +41,7 @@ export type TDetailsPageData = {
 
 export type TSlugParams = { slug: string };
 
-export type TProjectDetailsParams = { params: TSlugParams };
+export type TProjectDetailsParams = {
+  params: TSlugParams;
+  searchParams: { modal: string };
+};

@@ -5,7 +5,7 @@
     "cardImg": "/bapp-card-img.webp",
     "altCardImg": "/bapp-card-img.jpg",
     "cardDescription": "Elinvar's financial management platform for investment advisors.",
-    "tools": "React 18, Typescript, ES6, Styled Components, Jest, TAN Stack Query",
+    "tools": "React 18, Typescript, ES6, Styled Components, Jest, TAN Stack Query, Microfrontend Architecture",
     "cardUrl": null,
     "slug": "elinvar-bapp"
   },
