@@ -11,9 +11,13 @@ const ImageButton = ({ data, toggleState, setOpenImage }: any) => {
 
   return (
     <button
-      className={`imageButton ${activeButton ? "activeButton" : ""}`}
+      className="imageButton"
       onClick={() => {
-        return setOpenImage({ id: data.id, src: data.src });
+        return setOpenImage({
+          id: data.id,
+          isMobile: data.mobileImage,
+          src: data.src,
+        });
       }}
     >
       {data.title}
@@ -29,6 +33,7 @@ const ImageButton = ({ data, toggleState, setOpenImage }: any) => {
 const ImageToggle = ({ images }: any) => {
   const [toggleState, setToggleOpen] = useState({
     id: images[0].id,
+    isMobile: images[0].mobileImage,
     src: images[0].src,
   });
 
@@ -45,11 +50,11 @@ const ImageToggle = ({ images }: any) => {
         ))}
       </div>
 
-      <div className="imageWrapper">
+      <div className={toggleState.isMobile ? "mobileImageWrapper" : ""}>
         {toggleState.src ? (
           <Image
             height={1200}
-            width={1200}
+            width={2400}
             style={{
               maxWidth: "100%",
               height: "auto",

@@ -11,8 +11,19 @@
   "repoUrl": null,
   "otherUrlText": null,
   "otherUrl": null,
+  "imageSectionTitle": "Samples:",
   "images": [
-    { "id": 1, "title": "Desktop", "src": "/vhr-desktop.png" },
-    { "id": 2, "title": "Mobile", "src": "/vhr-mobile.png" }
+    {
+      "id": 1,
+      "mobileImage": false,
+      "title": "Desktop",
+      "src": "/vhr-desktop.png"
+    },
+    {
+      "id": 2,
+      "mobileImage": true,
+      "title": "Mobile",
+      "src": "/vhr-mobile.png"
+    }
   ]
 }

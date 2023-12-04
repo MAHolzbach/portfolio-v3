@@ -2,15 +2,13 @@ import { promises as fs } from "fs";
 import Link from "next/link";
 import { FaArrowLeft } from "react-icons/fa";
 import { TCardData, TSlugParams, TProjectDetailsParams } from "../../../types";
-// import ImageModal from "../../components/ImageModal";
 import ImageToggle from "../../components/ImageToggle";
 
 import "./page.scss";
 
 export default async function ProjectDetails({
   params,
-}: // searchParams,
-TProjectDetailsParams) {
+}: TProjectDetailsParams) {
   const {
     props: {
       project: {
@@ -24,12 +22,11 @@ TProjectDetailsParams) {
         detailsComments,
         detailsTeam,
         repoUrl,
+        imageSectionTitle,
         images,
       },
     },
   } = await getData(params);
-
-  // const modalOpen = searchParams?.modal;
 
   return (
     <div>
@@ -80,6 +77,7 @@ TProjectDetailsParams) {
           <span className="boldText">Team Members: </span>
           {detailsTeam}
         </p>
+        <p className="text boldText">{imageSectionTitle}</p>
       </div>
 
       <ImageToggle images={images} />

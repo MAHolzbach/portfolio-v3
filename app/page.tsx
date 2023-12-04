@@ -17,11 +17,13 @@ export default async function Home() {
       <div>
         <h1>What I Do</h1>
         <p>
-          I&apos;m a front-end web developer specializing in React and pixel
-          perfect CSS. I have extensive experience working in an Agile
-          environment using HTML5, CSS3/Sass, ES5/ES6, Typescript, React, Redux,
-          Vue, Git, and Webpack. Additionally, I am familiar with Netlify,
-          Contentful, Gatsby, Node.js and Express, AWS, and Jenkins.
+          I&apos;m a software developer specializing in Javascript/Typescript,
+          React, and their surrounding ecosystem. I believe a codebase should be
+          maintainable, logically structured, and well documented. I have
+          extensive experience working in an Agile environment using HTML5,
+          CSS3/Sass, ES5/ES6, Typescript, React, Redux, Vue, Git, and Webpack.
+          Additionally, I am familiar with Netlify, Contentful, Gatsby, Node.js
+          and Express, and AWS.
         </p>
         <hr />
         <h2>Professional Work</h2>
