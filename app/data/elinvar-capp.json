@@ -1,0 +1,41 @@
+{
+  "tools": "React 18, Typescript, ES6, Styled Components, Jest, React Query",
+  "detailsTitle": "Elinvar Investor Portal",
+  "visitUrl": null,
+  "detailsSubtitle": "(Elinvar is a client subscription platform and not accessible to the public.)",
+  "detailsTask": "Build and maintain a portal site where investors can review their investoment data and documents.",
+  "detailsChallenges": "My main tasks here were the addition of a client postbox, setting up themeing for new clients, and periodic maintenance/upgrades.",
+  "detailsResults": "Added several new style themes, created a dedicated postbox page, and executed regular bugfixes and maintenance.",
+  "detailsComments": "The 'cApp' as we called it was a mostly settled project. However, its existing document page did nothing more than list the documents that were available to investors. I created a 'postbox' that utilized some restful endpoints allowing investors to request and download those documents as PDFs and archive/unarchive documents they had already read, along with a couple filters. Additionaly, I created the style theme for several new clients using styled-components and a company internal theme setup. This was more complicated than it sounds due to our component library not working well with non-white backgrounds, thus requiring a great deal of tinkering to get everything looking right.",
+  "detailsTeam": "Too many to list!",
+  "repoUrl": null,
+  "otherUrlText": null,
+  "otherUrl": null,
+  "imageSectionTitle": "Samples:",
+  "images": [
+    {
+      "id": 1,
+      "mobileImage": false,
+      "title": "Investor Data",
+      "src": "/capp-personal-data.png"
+    },
+    {
+      "id": 2,
+      "mobileImage": false,
+      "title": "Deposit/Withdrawal",
+      "src": "/capp-deposit.png"
+    },
+    {
+      "id": 3,
+      "mobileImage": false,
+      "title": "Postbox",
+      "src": "/capp-postbox.png"
+    },
+    {
+      "id": 4,
+      "mobileImage": true,
+      "title": "Mobile Example",
+      "src": "/capp-mobile-example.png"
+    }
+  ]
+}
