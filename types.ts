@@ -21,6 +21,8 @@ export type TCardProps = {
 };
 
 export type TImageData = {
+  id: number;
+  mobileImage: boolean;
   title: string;
   source: string;
 };
@@ -36,6 +38,7 @@ export type TDetailsPageData = {
   detailsComments: string;
   detailsTeam: string;
   repoUrl?: string | null;
+  imageSectionTitle?: string | null;
   images: TImageData[];
 };
 
@@ -43,5 +46,4 @@ export type TSlugParams = { slug: string };
 
 export type TProjectDetailsParams = {
   params: TSlugParams;
-  searchParams: { modal: string };
 };

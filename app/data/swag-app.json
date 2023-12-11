@@ -11,8 +11,19 @@
   "repoUrl": null,
   "otherUrlText": null,
   "otherUrl": null,
+  "imageSectionTitle": "Samples:",
   "images": [
-    { "id": 1, "title": "Customize View", "src": "/swag-app-customize.jpg" },
-    { "id": 2, "title": "Form View", "src": "/swag-app-form.jpg" }
+    {
+      "id": 1,
+      "mobileImage": false,
+      "title": "Customize View",
+      "src": "/swag-app-customize.jpg"
+    },
+    {
+      "id": 2,
+      "mobileImage": false,
+      "title": "Form View",
+      "src": "/swag-app-form.jpg"
+    }
   ]
 }

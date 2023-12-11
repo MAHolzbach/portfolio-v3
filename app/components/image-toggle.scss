@@ -1,33 +1,16 @@
 .imageToggleWrapper {
-  display: grid;
-  grid-template-columns: minmax(100px, 20%) 1fr;
-  grid-template-areas: "toggleButtons images";
-  column-gap: 5%;
-  position: relative;
-
-  @media (max-width: 1024px) {
-    display: flex;
-    flex-direction: column;
-  }
-}
-.imageButtonWrapper {
-  grid-area: toggleButtons;
   display: flex;
   flex-direction: column;
-
-  @media (max-width: 1024px) {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
 }
-.imageWrapper {
-  grid-area: images;
-  position: absolute;
-
-  @media (max-width: 1024px) {
-    display: flex;
-    position: relative;
+.imageButtonWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.mobileImageWrapper {
+  @media (min-width: 1024px) {
+    margin: 0 auto;
+    max-width: 30vw;
   }
 }
 .imageButton {
@@ -42,6 +25,7 @@
   padding: 4px;
   font-weight: 500;
   background-color: #f9f9f9;
+  margin-right: 8px;
   margin-bottom: 12px;
 
   * {
@@ -69,13 +53,4 @@
   vertical-align: middle;
   color: #1c4ad2;
   margin-left: 4px;
-
-  @media (max-width: 1024px) {
-    display: none;
-  }
-}
-.activeButton {
-  @media (max-width: 1024px) {
-    box-shadow: inset 0 0 10px #1c4ad2;
-  }
 }

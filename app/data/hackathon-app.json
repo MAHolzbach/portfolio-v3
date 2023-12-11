@@ -11,8 +11,19 @@
   "repoUrl": null,
   "otherUrlText": null,
   "otherUrl": null,
+  "imageSectionTitle": "Samples:",
   "images": [
-    { "id": 1, "title": "Idea Submission", "src": "/hackathon-ideas.png" },
-    { "id": 2, "title": "Create Team", "src": "/hackathon-create-team.png" }
+    {
+      "id": 1,
+      "mobileImage": false,
+      "title": "Idea Submission",
+      "src": "/hackathon-ideas.png"
+    },
+    {
+      "id": 2,
+      "mobileImage": false,
+      "title": "Create Team",
+      "src": "/hackathon-create-team.png"
+    }
   ]
 }

@@ -1,8 +1,8 @@
 {
-  "tools": "React 18, Typescript, ES6, Styled Components, Jest, TAN Stack Query, Microfrontend Architecture",
+  "tools": "React 18, Typescript, ES6, Styled Components, Jest, React Query, Microfrontend Architecture",
   "detailsTitle": "Elinvar Financial Advisor Platform",
   "visitUrl": null,
-  "detailsSubtitle": "(This page is a client subscription platform, and not accessible to the public.)",
+  "detailsSubtitle": "(Elinvar is a client subscription platform and not accessible to the public.)",
   "detailsTask": "Build and maintain a large financial management platform.",
   "detailsChallenges": "An enormous code base, sometimes quickly written during the ramp phase of a tech startup lifecycle, as well as shifting technologies and client/company needs.",
   "detailsResults": "Added numerous new pages and features to the platform as well as re-factor and maintain older code.",
@@ -11,20 +11,29 @@
   "repoUrl": null,
   "otherUrlText": null,
   "otherUrl": null,
+  "imageSectionTitle": "Samples (No mobile version of this platform):",
   "images": [
-    { "id": 1, "title": "Client Data", "src": "/bapp-client-details.png" },
+    {
+      "id": 1,
+      "mobileImage": false,
+      "title": "Client Data",
+      "src": "/bapp-client-details.png"
+    },
     {
       "id": 2,
+      "mobileImage": false,
       "title": "Client Details",
       "src": "/bapp-person-details.png"
     },
     {
       "id": 3,
+      "mobileImage": false,
       "title": "Client Data Editing",
       "src": "/bapp-person-details-editing.png"
     },
     {
       "id": 4,
+      "mobileImage": false,
       "title": "Client Table",
       "src": "/bapp-person-overview-table.png"
     }
