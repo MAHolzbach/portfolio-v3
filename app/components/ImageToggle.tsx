@@ -17,6 +17,7 @@ const ImageButton = ({ data, toggleState, setOpenImage }: any) => {
           id: data.id,
           isMobile: data.mobileImage,
           src: data.src,
+          blurredDataUrl: data.blurredDataUrl,
         });
       }}
     >
@@ -31,10 +32,12 @@ const ImageButton = ({ data, toggleState, setOpenImage }: any) => {
 };
 
 const ImageToggle = ({ images }: any) => {
+  console.log("ImageToggle -->", images);
   const [toggleState, setToggleOpen] = useState({
     id: images[0].id,
     isMobile: images[0].mobileImage,
     src: images[0].src,
+    blurredDataUrl: images[0].blurredDataUrl,
   });
 
   return (
@@ -60,6 +63,8 @@ const ImageToggle = ({ images }: any) => {
               height: "auto",
             }}
             src={toggleState.src}
+            placeholder="blur"
+            blurDataURL={toggleState.blurredDataUrl}
             alt="Project"
           />
         ) : null}
