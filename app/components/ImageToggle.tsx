@@ -53,21 +53,23 @@ const ImageToggle = ({ images }: any) => {
         ))}
       </div>
 
-      <div className={toggleState.isMobile ? "mobileImageWrapper" : ""}>
-        {toggleState.src ? (
-          <Image
-            height={1200}
-            width={2400}
-            style={{
-              maxWidth: "100%",
-              height: "auto",
-            }}
-            src={toggleState.src}
-            placeholder="blur"
-            blurDataURL={toggleState.blurredDataUrl}
-            alt="Project"
-          />
-        ) : null}
+      <div
+        className={
+          toggleState.isMobile ? "mobileImageWrapper" : "desktopImageWrapper"
+        }
+      >
+        <Image
+          height={2000}
+          width={2000}
+          style={{
+            maxWidth: "100%",
+            height: "auto",
+          }}
+          src={toggleState.src}
+          // placeholder="blur"
+          // blurDataURL={toggleState.blurredDataUrl}
+          alt="Project"
+        />
       </div>
     </div>
   );

@@ -8,10 +8,14 @@
   flex-wrap: wrap;
 }
 .mobileImageWrapper {
-  @media (min-width: 1024px) {
-    margin: 0 auto;
-    max-width: 30vw;
-  }
+  margin: 0 auto;
+  max-width: 30vw;
+  transition: max-width 0.3s ease;
+}
+.desktopImageWrapper {
+  margin: 0 auto;
+  max-width: 100vw;
+  transition: max-width 0.3s ease;
 }
 .imageButton {
   display: flex;
