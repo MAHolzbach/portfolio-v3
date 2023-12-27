@@ -3,6 +3,7 @@ import Link from "next/link";
 import { FaArrowLeft } from "react-icons/fa";
 import { TCardData, TSlugParams, TProjectDetailsParams } from "../../../types";
 import ImageToggle from "../../components/ImageToggle";
+import addBlurredDataUrls from "../../lib/getBase64";
 
 import "./page.scss";
 
@@ -27,6 +28,8 @@ export default async function ProjectDetails({
       },
     },
   } = await getData(params);
+
+  const imagesWithBlur = await addBlurredDataUrls(images);
 
   return (
     <div>
@@ -80,7 +83,7 @@ export default async function ProjectDetails({
         <p className="text boldText">{imageSectionTitle}</p>
       </div>
 
-      <ImageToggle images={images} />
+      <ImageToggle images={imagesWithBlur} />
     </div>
   );
 }

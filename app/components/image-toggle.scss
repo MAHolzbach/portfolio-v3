@@ -8,10 +8,18 @@
   flex-wrap: wrap;
 }
 .mobileImageWrapper {
-  @media (min-width: 1024px) {
-    margin: 0 auto;
-    max-width: 30vw;
-  }
+  margin: 0 auto;
+  max-width: 30vw;
+}
+.desktopImageWrapper {
+  margin: 0 auto;
+  max-width: 100vw;
+}
+.imageHidden {
+  display: none;
+}
+.imageVisible {
+  display: flex;
 }
 .imageButton {
   display: flex;
