@@ -24,7 +24,12 @@ export type TImageData = {
   id: number;
   mobileImage: boolean;
   title: string;
-  source: string;
+  src: string;
+  blurredDataUrl?: string;
+};
+
+export type TImageToggleProps = {
+  images: TImageData[];
 };
 
 export type TDetailsPageData = {

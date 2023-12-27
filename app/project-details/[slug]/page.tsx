@@ -29,7 +29,7 @@ export default async function ProjectDetails({
     },
   } = await getData(params);
 
-  // const imagesWithBlur = await addBlurredDataUrls(images);
+  const imagesWithBlur = await addBlurredDataUrls(images);
 
   return (
     <div>
@@ -83,7 +83,7 @@ export default async function ProjectDetails({
         <p className="text boldText">{imageSectionTitle}</p>
       </div>
 
-      <ImageToggle images={images} />
+      <ImageToggle images={imagesWithBlur} />
     </div>
   );
 }
