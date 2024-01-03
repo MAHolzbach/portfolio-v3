@@ -12,8 +12,8 @@ export type TCardData = {
 export type TCardProps = {
   key: string;
   title: string;
-  img: string;
-  altImg: string;
+  cardImg: string;
+  altCardImg: string;
   description: string;
   tools: string;
   url: string | null;

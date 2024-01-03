@@ -37,8 +37,8 @@ export default async function Home() {
         <ProjectCard
           key={item.cardTitle}
           title={item.cardTitle}
-          img={item.cardImg}
-          altImg={item.altCardImg}
+          cardImg={item.cardImg}
+          altCardImg={item.altCardImg}
           description={item.cardDescription}
           tools={item.tools}
           url={item.cardUrl}

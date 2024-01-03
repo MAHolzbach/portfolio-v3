@@ -9,7 +9,7 @@ const ProjectCard = (props: TCardProps) => (
   <div className="card">
     <h2 className="cardTitle">{props.title}</h2>
     <div className="cardImage">
-      <Image fill src={props.altImg} alt="Project" />
+      <Image fill src={props.cardImg} alt="Project" />
     </div>
     <p className="cardText">
       <strong>Tools: </strong>
