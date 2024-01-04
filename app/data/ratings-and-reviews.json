@@ -17,13 +17,13 @@
       "id": 1,
       "mobileImage": false,
       "title": "Desktop",
-      "src": "/rnr-desktop.png"
+      "imgSrc": "/rnr-desktop.png"
     },
     {
       "id": 2,
       "mobileImage": true,
       "title": "Mobile",
-      "src": "/rnr-mobile.png"
+      "imgSrc": "/rnr-mobile.png"
     }
   ]
 }

@@ -1,8 +1,8 @@
 export type TCardData = {
   projectType: string;
   cardTitle: string;
-  cardImg: string;
-  altCardImg: string;
+  imgSrc: string;
+  blurredDataUrl: string;
   cardDescription: string;
   tools: string;
   cardUrl: string | null;
@@ -12,8 +12,8 @@ export type TCardData = {
 export type TCardProps = {
   key: string;
   title: string;
-  img: string;
-  altImg: string;
+  imgSrc: string;
+  blurredDataUrl: string;
   description: string;
   tools: string;
   url: string | null;
@@ -24,7 +24,7 @@ export type TImageData = {
   id: number;
   mobileImage: boolean;
   title: string;
-  src: string;
+  imgSrc: string;
   blurredDataUrl?: string;
 };
 

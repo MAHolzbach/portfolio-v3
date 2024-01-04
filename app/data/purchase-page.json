@@ -17,13 +17,13 @@
       "id": 1,
       "mobileImage": false,
       "title": "Desktop",
-      "src": "/purchase-desktop.png"
+      "imgSrc": "/purchase-desktop.png"
     },
     {
       "id": 2,
       "mobileImage": true,
       "title": "Mobile",
-      "src": "/purchase-mobile.png"
+      "imgSrc": "/purchase-mobile.png"
     }
   ]
 }

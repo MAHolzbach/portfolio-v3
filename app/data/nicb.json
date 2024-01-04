@@ -17,13 +17,13 @@
       "id": 1,
       "mobileImage": false,
       "title": "Desktop",
-      "src": "/nicb-desktop.png"
+      "imgSrc": "/nicb-desktop.png"
     },
     {
       "id": 2,
       "mobileImage": true,
       "title": "Mobile",
-      "src": "/nicb-mobile.png"
+      "imgSrc": "/nicb-mobile.png"
     }
   ]
 }

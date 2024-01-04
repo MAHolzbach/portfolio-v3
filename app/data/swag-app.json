@@ -17,13 +17,13 @@
       "id": 1,
       "mobileImage": false,
       "title": "Customize View",
-      "src": "/swag-app-customize.jpg"
+      "imgSrc": "/swag-app-customize.jpg"
     },
     {
       "id": 2,
       "mobileImage": false,
       "title": "Form View",
-      "src": "/swag-app-form.jpg"
+      "imgSrc": "/swag-app-form.jpg"
     }
   ]
 }
