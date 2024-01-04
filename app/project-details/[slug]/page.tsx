@@ -1,7 +1,7 @@
 import { promises as fs } from "fs";
 import Link from "next/link";
 import { FaArrowLeft } from "react-icons/fa";
-import { TCardData, TSlugParams, TProjectDetailsParams } from "../../../types";
+import { TCardData, TSlugParams, TProjectDetailsParams } from "../../types";
 import ImageToggle from "../../components/ImageToggle";
 import addBlurredDataUrls from "../../lib/getBase64";
 

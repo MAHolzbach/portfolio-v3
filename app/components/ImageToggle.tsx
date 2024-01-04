@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import { FaChevronCircleRight, FaChevronRight } from "react-icons/fa";
-import { TImageData, TImageToggleProps } from "../../types";
+import { TImageData, TImageToggleProps } from "../types";
 
 import "./image-toggle.scss";
 
@@ -16,7 +16,7 @@ const ImageButton = ({ data, toggleState, setOpenImage }: any) => {
       onClick={() => {
         return setOpenImage({
           id: data.id,
-          src: data.src,
+          imgSrc: data.imgSrc,
           blurredDataUrl: data.blurredDataUrl,
         });
       }}
@@ -34,7 +34,7 @@ const ImageButton = ({ data, toggleState, setOpenImage }: any) => {
 const ImageToggle = ({ images }: TImageToggleProps) => {
   const [toggleState, setToggleOpen] = useState({
     id: images[0].id,
-    src: images[0].src,
+    imgSrc: images[0].imgSrc,
     blurredDataUrl: images[0].blurredDataUrl,
   });
 
@@ -64,7 +64,7 @@ const ImageToggle = ({ images }: TImageToggleProps) => {
               maxWidth: "100%",
               height: "auto",
             }}
-            src={image.src}
+            src={image.imgSrc}
             placeholder="blur"
             blurDataURL={image.blurredDataUrl}
             alt="Project"

@@ -17,13 +17,13 @@
       "id": 1,
       "mobileImage": false,
       "title": "Desktop",
-      "src": "/vhr-desktop.png"
+      "imgSrc": "/vhr-desktop.png"
     },
     {
       "id": 2,
       "mobileImage": true,
       "title": "Mobile",
-      "src": "/vhr-mobile.png"
+      "imgSrc": "/vhr-mobile.png"
     }
   ]
 }

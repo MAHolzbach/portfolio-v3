@@ -1,6 +1,7 @@
 import { promises as fs } from "fs";
-import { TCardData } from "../types";
+import { TCardData } from "./types";
 import ProjectCard from "./components/ProjectCard";
+import addBlurredDataUrls from "./lib/getBase64";
 
 import "./page.scss";
 
@@ -12,19 +13,33 @@ export default async function Home() {
 
   const data = JSON.parse(file);
 
+  const dataWithImgPlaceholders = await addBlurredDataUrls(data);
+
   return (
-    <div className="indexWrapper">
+    <div className="landing">
       <div>
-        <h1>What I Do</h1>
-        <p>
-          I&apos;m a software developer specializing in Javascript/Typescript,
-          React, and their surrounding ecosystem. I believe a codebase should be
-          maintainable, logically structured, and well documented. I have
-          extensive experience working in an Agile environment using HTML5,
-          CSS3/Sass, ES5/ES6, Typescript, React, Redux, Vue, Git, and Webpack.
-          Additionally, I am familiar with Netlify, Contentful, Gatsby, Node.js
-          and Express, and AWS.
-        </p>
+        <div className="landing__aboutHeader">
+          <h1>About Me</h1>
+          <div className="landing__aboutText">
+            <p>
+              <span className="landing__aboutText--bold">I am: </span>a software
+              developer specializing in Javascript/Typescript, React, and their
+              surrounding ecosystem.
+            </p>
+            <p>
+              <span className="landing__aboutText--bold">I have: </span>
+              extensive experience working in an Agile environment using HTML5,
+              CSS3/Sass, ES5/ES6, Typescript, React, Redux, Vue, and Git.
+              Additionally, I am familiar with Next.js, Webpack, Netlify,
+              Contentful, Gatsby, Node.js and Express, and AWS.
+            </p>
+            <p>
+              <span className="landing__aboutText--bold">I believe: </span>a
+              codebase should be maintainable, logically structured, and well
+              documented.
+            </p>
+          </div>
+        </div>
         <hr />
         <h2>Professional Work</h2>
         <p>
@@ -33,12 +48,12 @@ export default async function Home() {
           these projects on a call!
         </p>
       </div>
-      {data.map((item: TCardData) => (
+      {dataWithImgPlaceholders.map((item: TCardData) => (
         <ProjectCard
           key={item.cardTitle}
           title={item.cardTitle}
-          cardImg={item.cardImg}
-          altCardImg={item.altCardImg}
+          imgSrc={item.imgSrc}
+          blurredDataUrl={item.blurredDataUrl}
           description={item.cardDescription}
           tools={item.tools}
           url={item.cardUrl}

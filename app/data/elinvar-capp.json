@@ -17,25 +17,25 @@
       "id": 1,
       "mobileImage": false,
       "title": "Investor Data",
-      "src": "/capp-personal-data.png"
+      "imgSrc": "/capp-personal-data.png"
     },
     {
       "id": 2,
       "mobileImage": false,
       "title": "Deposit/Withdrawal",
-      "src": "/capp-deposit.png"
+      "imgSrc": "/capp-deposit.png"
     },
     {
       "id": 3,
       "mobileImage": false,
       "title": "Postbox",
-      "src": "/capp-postbox.png"
+      "imgSrc": "/capp-postbox.png"
     },
     {
       "id": 4,
       "mobileImage": true,
       "title": "Mobile Example",
-      "src": "/capp-mobile-example.png"
+      "imgSrc": "/capp-mobile-example.png"
     }
   ]
 }

@@ -1,6 +1,18 @@
-.indexWrapper {
+.landing {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   text-align: center;
+}
+.landing__aboutHeader {
+  display: flex;
+  flex-direction: column;
+}
+.landing__aboutText {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.landing__aboutText--bold {
+  font-weight: 500;
 }
