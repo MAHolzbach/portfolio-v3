@@ -21,7 +21,7 @@ const SideNav = () => (
     <div className="socialLinks">
       <a
         className="socialLink"
-        href="https://www.dropbox.com/s/tglsuyx7z5zvy04/Mike%20Holzbach%20Resume.pdf?dl=0"
+        href="https://www.dropbox.com/scl/fi/6w57ap8jwrica3fu2jg9d/Mike-Holzbach-Resume.pdf?rlkey=u560n0ywz8au4shimb6umnvyk&dl=0"
         target="_blank"
         rel="noopener noreferrer"
       >
