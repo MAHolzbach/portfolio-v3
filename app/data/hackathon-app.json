@@ -17,13 +17,13 @@
       "id": 1,
       "mobileImage": false,
       "title": "Idea Submission",
-      "imgSrc": "/hackathon-ideas.png"
+      "imgSrc": "/hackathon-ideas-opt.webp"
     },
     {
       "id": 2,
       "mobileImage": false,
       "title": "Create Team",
-      "imgSrc": "/hackathon-create-team.png"
+      "imgSrc": "/hackathon-create-team-opt.webp"
     }
   ]
 }
