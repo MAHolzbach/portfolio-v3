@@ -17,25 +17,25 @@
       "id": 1,
       "mobileImage": false,
       "title": "Client Data",
-      "imgSrc": "/bapp-client-details.png"
+      "imgSrc": "/bapp-client-details-opt.webp"
     },
     {
       "id": 2,
       "mobileImage": false,
       "title": "Client Details",
-      "imgSrc": "/bapp-person-details.png"
+      "imgSrc": "/bapp-person-details-opt.webp"
     },
     {
       "id": 3,
       "mobileImage": false,
       "title": "Client Data Editing",
-      "imgSrc": "/bapp-person-details-editing.png"
+      "imgSrc": "/bapp-person-details-editing-opt.webp"
     },
     {
       "id": 4,
       "mobileImage": false,
       "title": "Client Table",
-      "imgSrc": "/bapp-person-overview-table.png"
+      "imgSrc": "/bapp-person-overview-table-opt.webp"
     }
   ]
 }
