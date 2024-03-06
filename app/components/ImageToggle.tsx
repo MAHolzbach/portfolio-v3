@@ -65,6 +65,7 @@ const ImageToggle = ({ images }: TImageToggleProps) => {
               height: "auto",
             }}
             src={image.imgSrc}
+            priority
             placeholder="blur"
             blurDataURL={image.blurredDataUrl}
             alt="Project"
