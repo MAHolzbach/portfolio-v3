@@ -1,5 +1,5 @@
 {
-  "tools": "React 18, Typescript, ES6, Styled Components, Jest, React Query",
+  "tools": "React 18, Typescript, ES6, Styled Components, Jest, TANStack Query",
   "detailsTitle": "Elinvar Investor Portal",
   "visitUrl": null,
   "detailsSubtitle": "(Elinvar is a client subscription platform and not accessible to the public.)",

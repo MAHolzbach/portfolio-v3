@@ -1,5 +1,5 @@
 {
-  "tools": "React 18, Typescript, ES6, Styled Components, Jest, React Query, Microfrontend Architecture",
+  "tools": "React 18, Typescript, ES6, Styled Components, Jest, TANStack Query, Microfrontend Architecture",
   "detailsTitle": "Elinvar Financial Advisor Platform",
   "visitUrl": null,
   "detailsSubtitle": "(Elinvar is a client subscription platform and not accessible to the public.)",
