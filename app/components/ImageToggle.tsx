@@ -33,13 +33,15 @@ const ImageButton = ({ data, toggleState, setOpenImage }: any) => {
 
 const ImageToggle = ({ images }: TImageToggleProps) => {
   const [toggleState, setToggleOpen] = useState({
-    id: images[0].id,
-    imgSrc: images[0].imgSrc,
-    blurredDataUrl: images[0].blurredDataUrl,
+    id: null,
+    imgSrc: "",
+    blurredDataUrl: "",
   });
 
   const composeImageToggleClasses = (image: TImageData) => {
-    return `${image.mobileImage ? "mobileImageWrapper" : "desktopImageWrapper"} 
+    return `imageWrapper ${
+      image.mobileImage ? "mobileImageWrapper" : "desktopImageWrapper"
+    } 
     ${toggleState.id === image.id ? "imageVisible" : "imageHidden"}`;
   };
 

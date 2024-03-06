@@ -9,6 +9,7 @@
   border-radius: 4px;
   margin: 16px 0;
   padding: 8px;
+  box-shadow: #00000059 0px 5px 15px;
 
   @media (min-width: 768px) {
     height: 500px;
@@ -58,6 +59,7 @@
   text-decoration: none;
   color: white;
   background-color: #1c4ad2;
+  box-shadow: #4c65af 0px 3px 4px;
 
   &:hover {
     background-color: lighten(#1c4ad2, 10%);
